@@ -94,11 +94,11 @@ syn match logXmlEntity       /&#\?\w\+;/
 syn keyword logLevelEmergency EMERGENCY EMERG
 syn keyword logLevelAlert ALERT
 syn keyword logLevelCritical CRITICAL CRIT FATAL
-syn keyword logLevelError ERROR ERR FAILURE SEVERE
-syn keyword logLevelWarning WARNING WARN
+syn keyword logLevelError ERROR ERR FAILURE SEVERE error
+syn keyword logLevelWarning WARNING WARN warning
 syn keyword logLevelNotice NOTICE
-syn keyword logLevelInfo INFO
-syn keyword logLevelDebug DEBUG FINE
+syn keyword logLevelInfo INFO info
+syn keyword logLevelDebug DEBUG FINE debug
 syn keyword logLevelTrace TRACE FINER FINEST
 
 
